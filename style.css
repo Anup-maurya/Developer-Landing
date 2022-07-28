@@ -1,0 +1,179 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container{
+   display: flex;
+   flex: 1;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items:center;
+   margin: 20px 0px;
+   padding: auto 1px;
+   position: relative;
+   
+}
+
+.list{
+    display: flex;
+    font-weight: 500;
+    font-family: 'Orbitron', sans-serif;
+    justify-content: space-around;
+   
+}
+
+.list>li{
+    margin-left: 50px;   
+    font-family: 'Orbitron', sans-serif;
+    list-style-type: none;
+}
+
+.list-item:hover{
+  color: blue;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+
+}
+
+.button-group{
+    display: flex;
+    height: 10px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.nav-button{
+    background: transparent;
+    padding: 5px 40px;
+    border-radius: .5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+/* Hero Banner Section  */
+.hero-container{
+    display: flex;
+    flex: 1;
+}
+
+.globe{
+    position: absolute;
+    padding-top:30px ;
+    padding-left: 750px;
+}
+
+.globe >img{
+    height: 40px;
+}
+
+.square{
+    position: absolute;
+    padding-top:260px ;
+    padding-left:230px;
+   
+    z-index: -1;
+}
+
+.square> img{
+    height: 240px;
+}
+
+.hero-container >div >img{
+    position: relative;
+    height: 420px;
+    padding-top:40px ;
+    padding-left: 80px;
+}
+
+.star{
+    position: absolute;
+    padding-top:400px ;
+    padding-left:520px;
+}
+
+.star1{
+    position: absolute;
+    padding-top:35px ;
+    padding-left:1120px;
+}
+
+
+.star>img{
+    height: 40px;
+}
+.star1>img{
+    height: 30px;
+}
+
+
+
+.hero-container-right{
+    position: absolute;
+    padding-top:40px ;
+    padding-left:520px;
+    width: 50%;
+    text-align: center;
+}
+
+.hero-heading{
+   
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+}
+
+.hero-description{
+    
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10px;
+  
+    
+}
+
+.button-email{
+       
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    background: transparent;
+    padding: 3px 36px;
+    border-radius: 0.5rem;
+}
+
+.button-email:hover{
+       
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    background:  blue;;
+    padding: 3px 36px;
+    border: blue;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+
+.button-join{       
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    background: #000;
+    color: #ffffff;
+    margin-left: 8px;
+    margin: 60px 0px;
+    padding: 3px 23px;
+    border-radius: 0.5rem;
+
+}
+
+.contact-heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.icons> span >img {
+    height: 30px;
+}
