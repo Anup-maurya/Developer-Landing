@@ -8,7 +8,7 @@
 
 ![name](https://img.shields.io/badge/Anup--Maurya-lightgrey)
 
-## Project 1 [Live Link](https://techarge.in)
+## Project 1 [Live Link](https://developerlanding.netlify.app/)
 
 -   Skills Gained in this project
     -   Learned to postion element in web page
