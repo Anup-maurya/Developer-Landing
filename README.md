@@ -1,4 +1,4 @@
-## ⭐ Interior Design Landing Page | Anup Maurya ⭐
+## ⭐ Developer Landing Page | Anup Maurya ⭐
 
 This Page is built using **HTML5 ,CSS3 and Media Query**.
 
